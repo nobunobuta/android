@@ -1,4 +1,8 @@
-To initialize get started with Android/CyanogenMod, you'll need to get
+This is nobunobuta fork from CyanogenMod
+
+Most of my modification is adding Japanese resoureces.
+
+To initialize get started with Android/CyanogenMod (nobunobuta fork), you'll need to get
 familiar with Git and Repo. 
 
 http://source.android.com/download/using-repo
@@ -6,7 +10,7 @@ http://source.android.com/download/using-repo
 To initialize your local repository using the CyanogenMod trees, 
 use a command like this:
 
-repo init -u git://github.com/cyanogen/android.git -b donut
+repo init -u git://github.com/nobunobuta/android.git -b donut
 
 Then to sync up:
 
