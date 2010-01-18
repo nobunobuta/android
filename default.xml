@@ -22,7 +22,7 @@
   <project path="frameworks/opt/com.google.android" revision="donut-release" name="platform/frameworks/opt/com.google.android"/>
   <project path="frameworks/opt/com.google.android.googlelogin" revision="donut-release" name="platform/frameworks/opt/com.google.android.googlelogin"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji"/>
-  <project path="frameworks/policies/base" name="nobunobuta/android_frameworks_policies_base" remote="github" />
+  <project path="frameworks/policies/base" name="nobunobuta/android_frameworks_policies_base" revision="donut_stericson" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy"/>
   <project path="hardware/ril" name="platform/hardware/ril"/>

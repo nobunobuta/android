@@ -10,7 +10,7 @@ http://source.android.com/download/using-repo
 To initialize your local repository using the CyanogenMod trees, 
 use a command like this:
 
-repo init -u git://github.com/nobunobuta/android.git -b donut
+repo init -u git://github.com/nobunobuta/android.git -b donut_stericson
 
 Then to sync up:
 
