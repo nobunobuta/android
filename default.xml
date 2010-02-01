@@ -47,7 +47,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/providers/WebSearchProvider" name="platform/packages/providers/WebSearchProvider"/>
 
-  <project path="packages/apps/AlarmClock" name="cyanogen/android_packages_apps_AlarmClock" remote="github" />
   <project path="packages/apps/Bluetooth" name="cyanogen/android_packages_apps_Bluetooth" remote="github" />
   <project path="packages/apps/Browser" name="nobunobuta/android_packages_apps_Browser" remote="github" revision="eclair-backport" />
   <project path="packages/apps/Calculator" name="cyanogen/android_packages_apps_Calculator" remote="github" />
