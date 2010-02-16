@@ -142,7 +142,7 @@
   <project path="external/protobuf" name="platform/external/protobuf"/>
   <project path="external/qemu" name="platform/external/qemu"/>
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
-  <project path="external/skia" name="cyanogen/android_external_skia" remote="github" />
+  <project path="external/skia" name="cyanogen/android_external_skia" revision="eclair-backport" remote="github" />
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
   <project path="external/sqlite" name="cyanogen/android_external_sqlite" remote="github" />
