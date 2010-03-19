@@ -30,7 +30,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="cyanogen/android_system_bluetooth" remote="github"/>
-  <project path="system/core" name="cyanogen/android_system_core" revision="master" remote="github" />
+  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
 
@@ -52,6 +52,7 @@
   <project path="packages/apps/Calculator" name="cyanogen/android_packages_apps_Calculator" remote="github" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar"/>
   <project path="packages/apps/Camera" name="cyanogen/android_packages_apps_Camera" remote="github" />
+  <project path="packages/apps/CertInstaller" name="cyanogen/android_packages_apps_CertInstaller" remote="github" />
   <project path="packages/apps/Contacts" name="nobunobuta/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="nobunobuta/android_packages_apps_DeskClock" remote="github" revision="eclair-backport" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
@@ -89,8 +90,8 @@
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
-  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" />
-  <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" />
+  <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
+  <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
@@ -126,14 +127,14 @@
   <project path="external/libpng" name="platform/external/libpng"/>
   <project path="external/libxml2" name="platform/external/libxml2"/>
   <project path="external/lzo" name="fries/android-external-liblzo" revision="master" remote="github" />
-  <project path="external/mtpd" name="platform/external/mtpd"/>
+  <project path="external/mtpd" name="cyanogen/android_external_mtpd" remote="github" />
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
   <project path="external/obexd" name="android-obex/obexd" revision="master" remote="gitorious" />
   <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
   <project path="external/openobex" name="android-obex/openobex" revision="master" remote="gitorious" />
-  <project path="external/openssl" name="fries/android-external-openssl" revision="master" remote="github" />
+  <project path="external/openssl" name="cyanogen/android_external_openssl" revision="master" remote="github" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" revision="master" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
   <project path="external/ping" name="platform/external/ping"/>
