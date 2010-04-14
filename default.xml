@@ -92,7 +92,7 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
   <project path="external/dnsmasq" name="cyanogen/android_external_dnsmasq" remote="github" revision="master" />
   <project path="external/dropbear" name="cyanogen/android_external_dropbear" remote="github" revision="master" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs"/>
+  <project path="external/e2fsprogs" name="cyanogen/android_external_e2fsprogs" remote="github" revision="master" />
   <project path="external/elfcopy" name="platform/external/elfcopy"/>
   <project path="external/elfutils" name="platform/external/elfutils"/>
   <project path="external/eglib" name="platform/external/eglib"/>
@@ -172,6 +172,6 @@
   <project path="vendor/pv-open" name="platform/vendor/pv-open" revision="donut-plus-aosp" />
 
   <project path="vendor/aosp" name="platform/vendor/aosp" revision="donut-plus-aosp" />
-  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" revision="master" remote="github" />
+  <project path="vendor/cyanogen" name="cyanogen/android_vendor_cyanogen" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="donut-plus-aosp" />
 </manifest>
